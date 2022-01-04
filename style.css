@@ -1,3 +1,37 @@
-h1{
+body{
     font-family: 'Raleway', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    text-align: justify;
+}
+.flexible{
+    display: flex;
+}
+.text-color{
+    color: saddlebrown;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.half-width img{
+    width: 70%;    
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#18d46d, orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.top{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
 }
