@@ -8,6 +8,14 @@ h1{
 p{
     text-align: justify;
     padding: 10px 40px 10px 40px;
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-size: 30px;
+}
+section{
+    padding-bottom: 200px;
+    height: 300px;
 }
 .flexible{
     display: flex;
@@ -40,4 +48,33 @@ p{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.ex-blog{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.ex-blog p{
+    padding-left: 0%;
+    padding-right: 40px;
+}
+.ex-blog div{
+    box-shadow: 5px 7px 40px gray;
+    height: 100%;
+
+}
+.ex-blog h3{
+    color: rgb(228, 15, 139);
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(22, 28, 80), rgb(168, 77, 153));
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(185, 13, 79), rgb(59, 165, 85) );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
