@@ -77,4 +77,10 @@ section{
 }
 footer p{
     text-align: center;
+    color:blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foot{
+    background-color: black;
+    padding: 20px;
 }
